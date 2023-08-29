@@ -1,0 +1,15 @@
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: auto;
+    height: 150px;
+    margin: 0;
+    padding: 10px;
+}
+
+.app-header img {
+    width: auto;
+    height: 150px;
+}

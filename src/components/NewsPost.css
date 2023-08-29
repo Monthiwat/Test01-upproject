@@ -1,0 +1,40 @@
+.news-post {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /*กำหนด pop up ให้อยู่หน้าสุด*/
+    /*กำหนดให้อยู่ตรงกลาง*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-post-bg{
+    background-color: rgba(7, 7, 7, 0.76);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.news-post-content{
+    position: relative;
+    max-width: 1200px;
+    background-color: black;
+}
+
+.news-post-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-post-content h3 {
+    color: white;
+    text-align: center;
+}
